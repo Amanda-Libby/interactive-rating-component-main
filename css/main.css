@@ -1,3 +1,5 @@
+/* General Styles */
+
 html {
     font-size: 16px;
   }
@@ -8,3 +10,38 @@ html {
     color: black;
     text-align: left;
   }
+
+  p { 
+    font-size: 0.875em;
+    line-height: 1.285;
+  }
+
+  .content-wrapper {
+    width: 90%;
+    margin: 50px;
+  } /* add this style to the html */
+
+  header,
+  footer {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header {
+
+  }
+
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+
+
+
+
