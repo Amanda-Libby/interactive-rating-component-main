@@ -33,6 +33,13 @@ html {
 
   }
 
+  h1, p {
+      color: white;
+      background-color: blue;
+  }
+
+
+
   header .content-wrapper {
     margin: 0;
     display: flex;
@@ -42,7 +49,7 @@ html {
   }
 
 /* 
-  h1 is white and so is the paragraph text
+  use the style guide for the colors
   the number buttons have to be a circle
   The submit button text is white and the background is orange
 */
