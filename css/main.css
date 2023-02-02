@@ -33,9 +33,12 @@ html {
 
   }
 
-  h1, p {
+  h1 {
       color: white;
-      background-color: blue;
+  }
+
+  p {
+      color: hsl(217, 12%, 63%);
   }
 
 
@@ -46,6 +49,11 @@ html {
     justify-content: flex;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  .submit-button {
+      background-color: hsl(25, 97%, 53%);
+      color: white;
   }
 
 /* 
