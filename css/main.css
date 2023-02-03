@@ -9,6 +9,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     color: black;
     text-align: left;
+    background-color: hsl(216, 12%, 8%);
   }
 
   p { 
@@ -54,6 +55,16 @@ html {
   .submit-button {
       background-color: hsl(25, 97%, 53%);
       color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-radius: 30px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      align-items: center;
+      text-align: center;
+      width: 70%;
   }
 
 /* 
