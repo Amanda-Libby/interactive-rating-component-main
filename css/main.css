@@ -52,6 +52,12 @@ html {
     flex-flow: row wrap;
   }
 
+  .number-button {
+      background-color: teal;
+      color: white;
+      /* figure out how to make the background a circle */
+  }
+
   .submit-button {
       background-color: hsl(25, 97%, 53%);
       color: white;
