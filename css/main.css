@@ -7,7 +7,7 @@ html {
   body {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: white;
     text-align: left;
     background-color: hsl(216, 12%, 8%);
   }
@@ -38,7 +38,7 @@ html {
       color: white;
   }
 
-  p {
+  .description {
       color: hsl(217, 12%, 63%);
   }
 
@@ -52,15 +52,13 @@ html {
     flex-flow: row wrap;
   }
 
-  .number-button {
-      background-color: teal;
+  .rating-button p {
       color: white;
       /* figure out how to make the background a circle */
   }
 
   .submit-button {
       background-color: hsl(25, 97%, 53%);
-      color: white;
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 40px;
@@ -70,7 +68,9 @@ html {
       margin-bottom: 40px;
       align-items: center;
       text-align: center;
-      width: 70%;
+      width: 50%;
+      
+    
   }
 
 /* 
