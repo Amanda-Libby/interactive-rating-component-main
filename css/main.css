@@ -9,7 +9,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: left;
-    background-color: hsl(216, 12%, 8%);
+    background-color: hsl(213, 19%, 18%);
   }
 
   p { 
@@ -53,25 +53,18 @@ html {
   }
 
   .rating-button p {
-      color: white;
+      color: hsl(217, 12%, 63%);
       /* figure out how to make the background a circle */
   }
 
   .submit-button {
       background-color: hsl(25, 97%, 53%);
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 40px;
-      padding-right: 40px;
       border-radius: 30px;
-      margin-top: 40px;
-      margin-bottom: 40px;
       align-items: center;
       text-align: center;
       width: 50%;
-      
-    
-  }
+      font-size: 30px;
+  } /* I think I need to be the membership so that I have the mockups */
 
 /* 
   use the style guide for the colors
