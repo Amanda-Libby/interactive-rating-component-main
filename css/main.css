@@ -30,6 +30,12 @@ html {
     flex-flow: row wrap;
   }
 
+  .black-box {
+    width: 412;
+    height: 416;
+    background-color: hsl(213, 19%, 18%);
+  }
+
   header {
 
   }
