@@ -9,7 +9,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: left;
-    background-color: hsl(213, 19%, 18%);
   }
 
   p { 
@@ -20,25 +19,17 @@ html {
   .content-wrapper {
     width: 90%;
     margin: 50px;
-  } /* add this style to the html */
-
-  header,
-  footer {
     display: flex;
     justify-content: flex;
     align-items: center;
     flex-flow: row wrap;
-  }
+  } /* add this style to the html */
 
   .black-box {
     width: 412;
     height: 416;
     background-color: hsl(213, 19%, 18%);
-  }
-
-  header {
-
-  }
+  } /* look at the skillcrush html and css course and look up how to use flex box and and how to center content */
 
   h1 {
       color: white;
@@ -51,11 +42,7 @@ html {
 
 
   header .content-wrapper {
-    margin: 0;
-    display: flex;
-    justify-content: flex;
-    align-items: center;
-    flex-flow: row wrap;
+   
   }
 
   .rating-button p {
